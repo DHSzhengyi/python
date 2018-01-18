@@ -5,4 +5,4 @@ pi = 3.1415926535897932384626433832795028841971693993751
 area = radius*radius*pi
 volume = area*length
 
-print("The volume of the cylinder is", "{0:.2f}".format(volume),"cubic metres.")
+print("The volume of the cylinder is {0:.2f} cubic metres.".format(volume))
