@@ -7,11 +7,10 @@ gross_pay = hour_week*hour_pay
 contribution = gross_pay*CPF/100
 net_pay = gross_pay - contribution
 
-
-print('\nPayroll statement for', name,
-      '\nNumber of hours worked weekly:', hour_week,
-      '\nHourly pay rate: $',"%.2f" % hour_pay,
-      '\nGross pay = $',"%.2f" % gross_pay ,
-      '\nCPF contribution at',CPF,'% = $', "%.2f" % contribution,
-      '\n',
-      '\nNet pay = $', "%.2f" % net_pay)
+print('\nPayroll statement for', name)
+print('Number of hours worked weekly:', hour_week)
+print("Hourly pay rate: ${0:.2f}".format(hour_pay))
+print("Gross pay = ${0:.2f}".format(gross_pay))
+print("CPF contribution at {0}% = ${1:.2f}".format(CPF, contribution))
+print('\n')
+print("Net pay = ${0:.2f}".format(net_pay))
