@@ -1,1 +1,1 @@
-# python-practical1
+# My DHS Computing Practicals 2018
