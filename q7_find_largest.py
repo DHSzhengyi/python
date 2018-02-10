@@ -1,4 +1,4 @@
-#Finding the largest number in an array
+#Finding the largest number 
 
 num = input("Enter a list of numbers (no commas!):")
 
